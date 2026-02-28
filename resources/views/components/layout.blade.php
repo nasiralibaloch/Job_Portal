@@ -31,16 +31,16 @@
         <ul class="flex space-x-6 mr-6 text-lg">
             @auth
                 <li>
-                    <span class="font-bold-uppercase">Welcome {{ auth()->user()->name }}</span>
+                    <span class="font-bold-uppercase hover:text-[#02fa1f]">Welcome {{ auth()->user()->name }}</span>
                 </li>
                 <li>
-                    <a href="/listings/manage" class="hover:text-laravel"><i class="fa-solid fa-gear"></i>
+                    <a href="/listings/manage" class="hover:text-[#02fa1f]"><i class="fa-solid fa-gear"></i>
                         Manage Listings</a>
                 </li>
                 <li>
                     <form class="inline" method="POST" action="/logout">
                         @csrf
-                        <button type="submit">
+                        <button type="submit" class="hover:text-[#02fa1f]">
                             <i class="fa-solid fa-door-closed"></i>Logout
                         </button>
                     </form>
