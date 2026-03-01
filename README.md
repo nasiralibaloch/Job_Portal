@@ -57,3 +57,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Laravel Job Portal
+
+This is a Laravel-based Job Listing Web Application.
+
+## Features
+- User Authentication
+- Create, Edit, Delete Listings
+- Manage Listings
+- Search Functionality
+
+## Tech Stack
+- Laravel
+- Blade
+- MySQL
+- Tailwind CSS
+
+## 👨‍💻 Author
+
+Nasir Ali  
+Junior Laravel Developer
