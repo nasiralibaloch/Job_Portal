@@ -4,7 +4,7 @@
 
     <div class="z-10">
         <h1 class="text-6xl font-bold uppercase text-white">
-            Job<span class="text-black">Portal</span>
+            Job<span class="text-black">Portal</span>HUB </h1>
         </h1>
         <p class="text-2xl text-gray-200 font-bold my-4">
             Find or post jobs & projects
