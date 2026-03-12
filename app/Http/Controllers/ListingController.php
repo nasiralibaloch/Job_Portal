@@ -57,6 +57,7 @@ class ListingController extends Controller
     }
     public function update(Request $request, Listing $listing)
     {
+        //they give the error when the logged in user and the job creation user not matched then throw error
         if ($listing->user_id != auth()->id()) {
             abort(403, 'Unauthorized Action');
         }
