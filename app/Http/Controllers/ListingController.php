@@ -57,9 +57,9 @@ class ListingController extends Controller
     }
     public function update(Request $request, Listing $listing)
     {
-        // if ($listing->user_id != auth()->id()) {
-        //     abort(403, 'Unauthorized Action');
-        // }
+        if ($listing->user_id != auth()->id()) {
+            abort(403, 'Unauthorized Action');
+        }
         $formfields = $request->validate([
             'title' => 'required',
             'company' => 'required',
