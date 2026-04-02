@@ -21,7 +21,7 @@ Route::middleware(['auth'])->group(function () {
 });
 Route::middleware(['guest'])->group(function () {
     //Register form
-    Route::get('/register', [UserController::class, 'create']);
+    Route::get('/register', [UserController::class, 'create'])->name('register');
     //listing login
     Route::get('/login', [UserController::class, 'login'])->name('login');
 });
